@@ -36,7 +36,7 @@ int main() {
   requiredPizzas = requiredSlices / sliceAmount;
 
   // Amount of pizzas required if everyone attending wants four slices
-  cout << fixed << setprecision(1) << "Required pizzas if every person eats four slices: " << requiredPizzas << endl;
+  cout << "Required pizzas if every person eats four slices: " << fixed << setprecision(1) << requiredPizzas << endl;
 
   return 0;
 }
