@@ -1,3 +1,4 @@
+// This program will calculate the number of pizzas needed for a party based on user inputs that include the people attending the party and sizes of the pizza
 #include <iostream>
 #include <iomanip>
 
