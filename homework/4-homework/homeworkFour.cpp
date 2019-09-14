@@ -1,6 +1,5 @@
 // This program will take the input of three numbers and calculate the greatest number and lowest number.
 #include <iostream>
-#include <string>
 
 using namespace std;
 
