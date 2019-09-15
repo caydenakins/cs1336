@@ -74,7 +74,7 @@ int main() {
     daysInMonths = 31;
   }
 
-  // Year and month calculations for current age
+  // Year calculations for current age
   if (currentMonth < birthMonth) {
     yearCalculation = (currentYear - birthYear) - 1;
   }
