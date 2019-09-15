@@ -1,3 +1,6 @@
+//
+// Currently broken for same month eg inputs: 1974 9 13 2019 9 14
+//
 // Calculate the users age using conditional statements and checking if it's the users birthday or not, as well as determining whether or not a special user is behind the keyboard
 #include <iostream>
 
@@ -75,7 +78,7 @@ int main() {
   }
 
   // Year calculations for current age
-  if ((currentMonth < birthMonth) && (currentDay < birthDay)) {
+  if ((currentMonth < birthMonth || currentMonth == birthMonth) && (currentDay < birthDay)) {
     yearCalculation = (currentYear - birthYear) - 1;
   }
   else if (currentMonth > birthMonth) {
