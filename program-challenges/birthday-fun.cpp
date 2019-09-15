@@ -75,7 +75,7 @@ int main() {
   }
 
   // Year calculations for current age
-  if (currentMonth < birthMonth) {
+  if ((currentMonth < birthMonth) && (currentDay < birthDay)) {
     yearCalculation = (currentYear - birthYear) - 1;
   }
   else if (currentMonth > birthMonth) {
