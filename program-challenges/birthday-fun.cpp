@@ -75,8 +75,12 @@ int main() {
   }
 
   // Year and month calculations for current age
-  yearCalculation = currentYear - birthYear;
-  monthCalculation = 12 - birthMonth;
+  if (currentMonth < birthMonth) {
+    yearCalculation = (currentYear - birthYear) - 1;
+  }
+  else if (currentMonth > birthMonth) {
+    yearCalculation = currentYear - birthYear;
+  }
 
   // Month calculations for current age
   if (currentMonth == birthMonth) {
