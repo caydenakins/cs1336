@@ -11,7 +11,7 @@ int main(){
   const double MAX_TEMP = 3000,          // Min/max inputs to bind the user to certain values
                MIN_TEMP = -459.67;
   const double WATER_BOILING = 212,      // We use constant variables because we know the
-               WATER_FREEZING = 32,         // boiling/freezing points will not change
+               WATER_FREEZING = 32,      // boiling/freezing points will not change
                LEAD_BOILING = 3180,
                LEAD_FREEZING = 621.5,
                ALCOHOL_BOILING = 173.1,
