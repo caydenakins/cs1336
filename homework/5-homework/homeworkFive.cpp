@@ -11,17 +11,17 @@ int main(){
   const double MAX_TEMP = 3000,          // Min/max inputs to bind the user to certain values
                MIN_TEMP = -459.67;
   const double WATER_BOILING = 212,      // We use constant variables because we know the
-            WATER_FREEZING = 32,         // boiling/freezing points will not change
-            LEAD_BOILING = 3180,
-            LEAD_FREEZING = 621.5,
-            ALCOHOL_BOILING = 173.1,
-            ALCOHOL_FREEZING = -173.5,
-            NITROGEN_BOILING = -320.4,
-            NITROGEN_FREEZING = -346,
-            MERCURY_BOILING = 674.1,
-            MERCURY_FREEZING = -37.89,
-            CHLORINE_BOILING = -29.27,
-            CHLORINE_FREEZING = -150.7;
+               WATER_FREEZING = 32,         // boiling/freezing points will not change
+               LEAD_BOILING = 3180,
+               LEAD_FREEZING = 621.5,
+               ALCOHOL_BOILING = 173.1,
+               ALCOHOL_FREEZING = -173.5,
+               NITROGEN_BOILING = -320.4,
+               NITROGEN_FREEZING = -346,
+               MERCURY_BOILING = 674.1,
+               MERCURY_FREEZING = -37.89,
+               CHLORINE_BOILING = -29.27,
+               CHLORINE_FREEZING = -150.7;
 
   // Input section to store the temperature the user chooses
   cout << "What is the temperature (in Fahrenheit)?" << endl;
