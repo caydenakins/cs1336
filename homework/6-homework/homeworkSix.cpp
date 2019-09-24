@@ -16,7 +16,7 @@ int main() {
     // We use count to inform the user of the range we are trying to stay between, prompting them with the reminder
     // message starting after one incorrect try
     if (count < 1) {
-      cout << "Enter a number and I will display a shape (Enter a 0 to exit):" << endl;
+      cout << "Enter a number to display a custom shape (Enter a 0 to exit):" << endl;
       cin >> numberInput;
       cout << endl;
     }
