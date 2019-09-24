@@ -23,7 +23,7 @@ int main() {
 
     else if (count >= 1) {
       cout << "Please stay within the range -20 and 20 and try again!" << endl;
-      cout << "Enter a number and I will display a shape (Enter a 0 to exit):" << endl;
+      cout << "Enter a number to display a custom shape (Enter a 0 to exit):" << endl;
       cin >> numberInput;
       cout << endl;
     }
@@ -59,7 +59,7 @@ int main() {
       // a 0 is reached, they go out of the range where they will return to the original do while, or the program
       // is closed manually
       cout << endl;
-      cout << "Enter a number and I will display a shape (Enter a 0 to exit):" << endl;
+      cout << "Enter a number to display a custom shape (Enter a 0 to exit):" << endl;
       cin >> numberInput;
       cout << endl;
     }
