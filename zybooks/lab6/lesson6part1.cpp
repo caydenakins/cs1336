@@ -22,18 +22,26 @@ int main() {
     cin >> upperValue;
   }
 
+  cout << "Characters for ASCII values between " << lowerValue << " and " << upperValue << endl;
+
   cout << "----+----+----+----+" << endl;
 
   // For loop that is responsible for checking the ASCII values in and converting the data type to
   // a character each time it prints.
-  for (int asciiCharacter = lowerValue; asciiCharacter <= upperValue; asciiCharacter++) {
+  unsigned int asciiCharacter = lowerValue;
+  for (; asciiCharacter <= upperValue; asciiCharacter++) {
     cout << char(asciiCharacter);
     if ((asciiCharacter - lowerValue) % 20 == 19) {   // To insert line break every 20 characters
       cout << endl;
     }
   }
 
-  cout << endl;
+  // If statement to make sure an addition line is printed if the modulus if function was not used
+  // after the last character printed
+  if (((asciiCharacter - lowerValue) % 20) != 0) {
+    cout << endl;
+  }
+
   cout << "----+----+----+----+" << endl;
 
   return 0;
