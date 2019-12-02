@@ -319,7 +319,7 @@ void display(int rankings[], string names[], int totalRankings[],
              int handAmount) {
   double percentage = 0;
 
-  cout << "Displaying results (Name, Occurrances, Percentage)..." << endl;
+  cout << "Displaying results (Name, Occurrences, Percentage)..." << endl;
   cout << endl;
 
   // Top line of output
